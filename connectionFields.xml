@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<connection-fields>
+
+  <field name="username" label="Username" value-type="string" category="authentication">
+  </field>
+
+  <field name="password" label="Password" value-type="string" category="authentication" secure="true">
+  </field>
+
+</connection-fields>
