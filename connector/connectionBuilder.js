@@ -1,6 +1,6 @@
 (function dsbuilder(attr) {
-    "use strict";
-    const urlBuilder = "jdbc:tiledb-cloud:dstara";
+
+    const urlBuilder = "jdbc:tiledb-cloud:" + attr["namespace"];
 
     return [urlBuilder];
 })

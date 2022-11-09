@@ -2,10 +2,33 @@
 
 <connection-fields>
 
-  <field name="username" label="Username" value-type="string" category="authentication">
+  <field name="username" label="Username" value-type="string" category="authentication" default-value="" optional="true"/>
+
+  <field name="password" label="Password" value-type="string" category="authentication" secure="true" default-value="" optional="true"/>
+
+  <field name="namespace" label="Namespace" value-type="string" category="authentication" default-value=""/>
+
+  <field name="apikey" label="API Token" value-type="string" category="authentication" default-value="" optional="true"/>
+
+  <field name="rememberme" label="Remember me" value-type="boolean" optional="false" category="general" default-value="0">
+    <boolean-options>
+      <false-value value="0" />
+      <true-value value="1" />
+    </boolean-options>
   </field>
 
-  <field name="password" label="Password" value-type="string" category="authentication" secure="true">
+  <field name="verifyssl" label="Verify SSL" value-type="boolean" optional="false" category="general" default-value="1">
+  <boolean-options>
+    <false-value value="0" />
+    <true-value value="1" />
+  </boolean-options>
+  </field>
+
+  <field name="overwriteprevious" label="Overwrite previous" value-type="boolean" optional="false" category="general" default-value="0">
+  <boolean-options>
+    <false-value value="0" />
+    <true-value value="1" />
+  </boolean-options>
   </field>
 
 </connection-fields>
