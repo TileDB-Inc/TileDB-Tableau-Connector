@@ -8,13 +8,14 @@
       <required-attributes>
         <setImpersonateAttributes/>
         <attribute-list>
+          <attr>authentication</attr>
           <attr>username</attr>
           <attr>password</attr>
-          <attr>namespace</attr>
-          <attr>apikey</attr>
-          <attr>rememberme</attr>
-          <attr>verifyssl</attr>
-          <attr>overwriteprevious</attr>
+          <attr>v-namespace</attr>
+          <attr>v-apikey</attr>
+          <attr>v-rememberme</attr>
+          <attr>v-verifyssl</attr>
+          <attr>v-overwriteprevious</attr>
         </attribute-list>
       </required-attributes>
     </connection-normalizer>

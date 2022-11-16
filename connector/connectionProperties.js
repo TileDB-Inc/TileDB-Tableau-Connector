@@ -1,7 +1,7 @@
 (function propertiesbuilder(attr) {
 
     function getRememberMe() {
-        const value = attr["rememberme"];
+        const value = attr["v-rememberme"];
         if (value === 0 || value === "0") {
             return "false";
         } else {
@@ -10,7 +10,7 @@
     }
 
     function getVerifySSL() {
-        const value = attr["verifyssl"];
+        const value = attr["v-verifyssl"];
         if (value === 0 || value === "0") {
             return "false";
         } else {
@@ -19,7 +19,7 @@
     }
 
     function getOverwritePrevious() {
-        const value = attr["overwriteprevious"];
+        const value = attr["v-overwriteprevious"];
         if (value === 0 || value === "0") {
             return "false";
         } else {
@@ -39,7 +39,7 @@
         props["password"] = psw;
     }
 
-    const key = attr["apikey"];
+    const key = attr["v-apikey"];
     if (key !== "") {
         props["apiKey"] = key;
     }

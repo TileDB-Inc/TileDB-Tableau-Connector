@@ -3,7 +3,7 @@
   <vendor-information>
       <company name="TileDB, Inc."/>
       <support-link url="https://tiledb.com"/>
-      <driver-download-link url="-"/>
+      <driver-download-link url="https://github.com/TileDB-Inc/TileDB-Cloud-JDBC"/>
   </vendor-information>
   <connection-customization class="tiledb_cloud_jdbc" enabled="true" version="10.0">
     <vendor name="TileDB"/>
