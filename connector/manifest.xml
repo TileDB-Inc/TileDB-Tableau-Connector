@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<connector-plugin class='tiledb_cloud_jdbc' superclass='jdbc' plugin-version='0.1.0' name='TileDB-Cloud JDBC' version='18.1' min-version-tableau='2020.4'>
+<connector-plugin class='tiledb_cloud_jdbc' superclass='jdbc' plugin-version='0.2.0' name='TileDB-Cloud JDBC' version='18.1' min-version-tableau='2020.4'>
   <vendor-information>
       <company name="TileDB, Inc."/>
       <support-link url="https://tiledb.com"/>
