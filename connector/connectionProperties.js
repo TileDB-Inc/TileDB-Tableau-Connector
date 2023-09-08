@@ -9,6 +9,15 @@
         }
     }
 
+    function getListPublicArrays() {
+        const value = attr["v-listpublicarrays"];
+        if (value === 0 || value === "0") {
+            return "false";
+        } else {
+            return "true";
+        }
+    }
+
     function getVerifySSL() {
         const value = attr["v-verifyssl"];
         if (value === 0 || value === "0") {
@@ -47,6 +56,7 @@
     props["rememberMe"] = getRememberMe();
     props["verifySSL"] = getVerifySSL();
     props["overwritePrevious"] = getOverwritePrevious();
+    props["listPublicArrays"] = getListPublicArrays();
 
     return props;
 })

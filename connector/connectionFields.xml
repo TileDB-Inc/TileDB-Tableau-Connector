@@ -19,6 +19,13 @@
     </boolean-options>
   </field>
 
+  <field name="v-listpublicarrays" label="List public arrays" value-type="boolean" optional="true" category="general" default-value="1">
+    <boolean-options>
+      <false-value value="0" />
+      <true-value value="1" />
+    </boolean-options>
+  </field>
+
   <field name="v-verifyssl" label="Verify SSL" value-type="boolean" optional="false" category="general" default-value="1">
   <boolean-options>
     <false-value value="0" />

@@ -16,6 +16,7 @@
           <attr>v-rememberme</attr>
           <attr>v-verifyssl</attr>
           <attr>v-overwriteprevious</attr>
+          <attr>v-listpublicarrays</attr>
         </attribute-list>
       </required-attributes>
     </connection-normalizer>
